@@ -78,7 +78,7 @@ class RealTimeGraph(tk.Frame):
         self.title = title
         self.x_label = x_label
         self.y_label = y_label
-        self.x_data = deque()  # Store all data points
+        self.x_data = deque() 
         self.y_data = deque()
 
         self.figure = Figure(figsize=(5, 3), dpi=100)
